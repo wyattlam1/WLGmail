@@ -6,3 +6,6 @@
 #
 # Pods/
 
+*.DS_Store
+WLGmail.xcodeproj/project.xcworkspace/xcuserdata/*
+WLGmail.xcodeproj/xcuserdata/*

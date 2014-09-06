@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB06135219BBD470006E8E9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB06135119BBD470006E8E9F /* Foundation.framework */; };
+		DB06135719BBD470006E8E9F /* WLGmail.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB06135619BBD470006E8E9F /* WLGmail.h */; };
+		DB06135919BBD470006E8E9F /* WLGmail.m in Sources */ = {isa = PBXBuildFile; fileRef = DB06135819BBD470006E8E9F /* WLGmail.m */; };
+		DB06136019BBD470006E8E9F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB06135F19BBD470006E8E9F /* XCTest.framework */; };
+		DB06136119BBD470006E8E9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB06135119BBD470006E8E9F /* Foundation.framework */; };
+		DB06136319BBD470006E8E9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB06136219BBD470006E8E9F /* UIKit.framework */; };
+		DB06136619BBD470006E8E9F /* libWLGmail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB06134E19BBD470006E8E9F /* libWLGmail.a */; };
+		DB06136C19BBD470006E8E9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB06136A19BBD470006E8E9F /* InfoPlist.strings */; };
+		DB06136E19BBD470006E8E9F /* WLGmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB06136D19BBD470006E8E9F /* WLGmailTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB06136419BBD470006E8E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB06134619BBD470006E8E9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB06134D19BBD470006E8E9F;
+			remoteInfo = WLGmail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB06134C19BBD470006E8E9F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DB06135719BBD470006E8E9F /* WLGmail.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB06134E19BBD470006E8E9F /* libWLGmail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWLGmail.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB06135119BBD470006E8E9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB06135519BBD470006E8E9F /* WLGmail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WLGmail-Prefix.pch"; sourceTree = "<group>"; };
+		DB06135619BBD470006E8E9F /* WLGmail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLGmail.h; sourceTree = "<group>"; };
+		DB06135819BBD470006E8E9F /* WLGmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLGmail.m; sourceTree = "<group>"; };
+		DB06135E19BBD470006E8E9F /* WLGmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLGmailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB06135F19BBD470006E8E9F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB06136219BBD470006E8E9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DB06136919BBD470006E8E9F /* WLGmailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WLGmailTests-Info.plist"; sourceTree = "<group>"; };
+		DB06136B19BBD470006E8E9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB06136D19BBD470006E8E9F /* WLGmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLGmailTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB06134B19BBD470006E8E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB06135219BBD470006E8E9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB06135B19BBD470006E8E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB06136019BBD470006E8E9F /* XCTest.framework in Frameworks */,
+				DB06136319BBD470006E8E9F /* UIKit.framework in Frameworks */,
+				DB06136119BBD470006E8E9F /* Foundation.framework in Frameworks */,
+				DB06136619BBD470006E8E9F /* libWLGmail.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB06134519BBD470006E8E9F = {
+			isa = PBXGroup;
+			children = (
+				DB06135319BBD470006E8E9F /* WLGmail */,
+				DB06136719BBD470006E8E9F /* WLGmailTests */,
+				DB06135019BBD470006E8E9F /* Frameworks */,
+				DB06134F19BBD470006E8E9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB06134F19BBD470006E8E9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB06134E19BBD470006E8E9F /* libWLGmail.a */,
+				DB06135E19BBD470006E8E9F /* WLGmailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB06135019BBD470006E8E9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB06135119BBD470006E8E9F /* Foundation.framework */,
+				DB06135F19BBD470006E8E9F /* XCTest.framework */,
+				DB06136219BBD470006E8E9F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB06135319BBD470006E8E9F /* WLGmail */ = {
+			isa = PBXGroup;
+			children = (
+				DB06135619BBD470006E8E9F /* WLGmail.h */,
+				DB06135819BBD470006E8E9F /* WLGmail.m */,
+				DB06135419BBD470006E8E9F /* Supporting Files */,
+			);
+			path = WLGmail;
+			sourceTree = "<group>";
+		};
+		DB06135419BBD470006E8E9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB06135519BBD470006E8E9F /* WLGmail-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB06136719BBD470006E8E9F /* WLGmailTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB06136D19BBD470006E8E9F /* WLGmailTests.m */,
+				DB06136819BBD470006E8E9F /* Supporting Files */,
+			);
+			path = WLGmailTests;
+			sourceTree = "<group>";
+		};
+		DB06136819BBD470006E8E9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB06136919BBD470006E8E9F /* WLGmailTests-Info.plist */,
+				DB06136A19BBD470006E8E9F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB06134D19BBD470006E8E9F /* WLGmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB06137119BBD470006E8E9F /* Build configuration list for PBXNativeTarget "WLGmail" */;
+			buildPhases = (
+				DB06134A19BBD470006E8E9F /* Sources */,
+				DB06134B19BBD470006E8E9F /* Frameworks */,
+				DB06134C19BBD470006E8E9F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLGmail;
+			productName = WLGmail;
+			productReference = DB06134E19BBD470006E8E9F /* libWLGmail.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DB06135D19BBD470006E8E9F /* WLGmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB06137419BBD470006E8E9F /* Build configuration list for PBXNativeTarget "WLGmailTests" */;
+			buildPhases = (
+				DB06135A19BBD470006E8E9F /* Sources */,
+				DB06135B19BBD470006E8E9F /* Frameworks */,
+				DB06135C19BBD470006E8E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB06136519BBD470006E8E9F /* PBXTargetDependency */,
+			);
+			name = WLGmailTests;
+			productName = WLGmailTests;
+			productReference = DB06135E19BBD470006E8E9F /* WLGmailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB06134619BBD470006E8E9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = WyattLam;
+			};
+			buildConfigurationList = DB06134919BBD470006E8E9F /* Build configuration list for PBXProject "WLGmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB06134519BBD470006E8E9F;
+			productRefGroup = DB06134F19BBD470006E8E9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB06134D19BBD470006E8E9F /* WLGmail */,
+				DB06135D19BBD470006E8E9F /* WLGmailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB06135C19BBD470006E8E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB06136C19BBD470006E8E9F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB06134A19BBD470006E8E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB06135919BBD470006E8E9F /* WLGmail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB06135A19BBD470006E8E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB06136E19BBD470006E8E9F /* WLGmailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB06136519BBD470006E8E9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB06134D19BBD470006E8E9F /* WLGmail */;
+			targetProxy = DB06136419BBD470006E8E9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB06136A19BBD470006E8E9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB06136B19BBD470006E8E9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB06136F19BBD470006E8E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB06137019BBD470006E8E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB06137219BBD470006E8E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WLGmail.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WLGmail/WLGmail-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DB06137319BBD470006E8E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WLGmail.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WLGmail/WLGmail-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DB06137519BBD470006E8E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WLGmail/WLGmail-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WLGmailTests/WLGmailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB06137619BBD470006E8E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WLGmail/WLGmail-Prefix.pch";
+				INFOPLIST_FILE = "WLGmailTests/WLGmailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB06134919BBD470006E8E9F /* Build configuration list for PBXProject "WLGmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB06136F19BBD470006E8E9F /* Debug */,
+				DB06137019BBD470006E8E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB06137119BBD470006E8E9F /* Build configuration list for PBXNativeTarget "WLGmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB06137219BBD470006E8E9F /* Debug */,
+				DB06137319BBD470006E8E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB06137419BBD470006E8E9F /* Build configuration list for PBXNativeTarget "WLGmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB06137519BBD470006E8E9F /* Debug */,
+				DB06137619BBD470006E8E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB06134619BBD470006E8E9F /* Project object */;
+}
