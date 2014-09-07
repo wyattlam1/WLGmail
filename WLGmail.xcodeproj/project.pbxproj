@@ -16,6 +16,7 @@
 		DB06136619BBD470006E8E9F /* libWLGmail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB06134E19BBD470006E8E9F /* libWLGmail.a */; };
 		DB06136C19BBD470006E8E9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB06136A19BBD470006E8E9F /* InfoPlist.strings */; };
 		DB06136E19BBD470006E8E9F /* WLGmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB06136D19BBD470006E8E9F /* WLGmailTests.m */; };
+		DB06139619BBD91A006E8E9F /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB06139119BBD910006E8E9F /* libGTLTouchStaticLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +26,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = DB06134D19BBD470006E8E9F;
 			remoteInfo = WLGmail;
+		};
+		DB06138E19BBD910006E8E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB06138719BBD910006E8E9F /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F38F6A60B66E91D00B24B81;
+			remoteInfo = GTLFramework;
+		};
+		DB06139019BBD910006E8E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB06138719BBD910006E8E9F /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027C11A4CA2F00BEB470;
+			remoteInfo = GTLTouchStaticLib;
+		};
+		DB06139219BBD910006E8E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB06138719BBD910006E8E9F /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027D11A4CA2F00BEB470;
+			remoteInfo = GTLUnitTests;
+		};
+		DB06139419BBD910006E8E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB06138719BBD910006E8E9F /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F1AD9020B71603F00DC0485;
+			remoteInfo = DevelopmentTestTool;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +82,7 @@
 		DB06136919BBD470006E8E9F /* WLGmailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WLGmailTests-Info.plist"; sourceTree = "<group>"; };
 		DB06136B19BBD470006E8E9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB06136D19BBD470006E8E9F /* WLGmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLGmailTests.m; sourceTree = "<group>"; };
+		DB06138719BBD910006E8E9F /* GTL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GTL.xcodeproj; path = GTL/GTL.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB06135219BBD470006E8E9F /* Foundation.framework in Frameworks */,
+				DB06139619BBD91A006E8E9F /* libGTLTouchStaticLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +116,7 @@
 				DB06136719BBD470006E8E9F /* WLGmailTests */,
 				DB06135019BBD470006E8E9F /* Frameworks */,
 				DB06134F19BBD470006E8E9F /* Products */,
+				DB06138719BBD910006E8E9F /* GTL.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +173,17 @@
 				DB06136A19BBD470006E8E9F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB06138819BBD910006E8E9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB06138F19BBD910006E8E9F /* GTL.framework */,
+				DB06139119BBD910006E8E9F /* libGTLTouchStaticLib.a */,
+				DB06139319BBD910006E8E9F /* GTLUnitTests.xctest */,
+				DB06139519BBD910006E8E9F /* DevelopmentTestTool */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +243,12 @@
 			mainGroup = DB06134519BBD470006E8E9F;
 			productRefGroup = DB06134F19BBD470006E8E9F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DB06138819BBD910006E8E9F /* Products */;
+					ProjectRef = DB06138719BBD910006E8E9F /* GTL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DB06134D19BBD470006E8E9F /* WLGmail */,
@@ -207,6 +256,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DB06138F19BBD910006E8E9F /* GTL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL.framework;
+			remoteRef = DB06138E19BBD910006E8E9F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DB06139119BBD910006E8E9F /* libGTLTouchStaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGTLTouchStaticLib.a;
+			remoteRef = DB06139019BBD910006E8E9F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DB06139319BBD910006E8E9F /* GTLUnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GTLUnitTests.xctest;
+			remoteRef = DB06139219BBD910006E8E9F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DB06139519BBD910006E8E9F /* DevelopmentTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DevelopmentTestTool;
+			remoteRef = DB06139419BBD910006E8E9F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DB06135C19BBD470006E8E9F /* Resources */ = {
@@ -332,9 +412,13 @@
 				DSTROOT = /tmp/WLGmail.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLGmail/WLGmail-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -344,9 +428,13 @@
 				DSTROOT = /tmp/WLGmail.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLGmail/WLGmail-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -405,6 +493,7 @@
 				DB06137319BBD470006E8E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB06137419BBD470006E8E9F /* Build configuration list for PBXNativeTarget "WLGmailTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +502,7 @@
 				DB06137619BBD470006E8E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
