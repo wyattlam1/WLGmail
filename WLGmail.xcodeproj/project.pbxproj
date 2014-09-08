@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DB06135219BBD470006E8E9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB06135119BBD470006E8E9F /* Foundation.framework */; };
-		DB06135719BBD470006E8E9F /* WLGmail.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB06135619BBD470006E8E9F /* WLGmail.h */; };
-		DB06135919BBD470006E8E9F /* WLGmail.m in Sources */ = {isa = PBXBuildFile; fileRef = DB06135819BBD470006E8E9F /* WLGmail.m */; };
+		DB06135719BBD470006E8E9F /* WLGmailService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB06135619BBD470006E8E9F /* WLGmailService.h */; };
+		DB06135919BBD470006E8E9F /* WLGmailService.m in Sources */ = {isa = PBXBuildFile; fileRef = DB06135819BBD470006E8E9F /* WLGmailService.m */; };
 		DB06136019BBD470006E8E9F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB06135F19BBD470006E8E9F /* XCTest.framework */; };
 		DB06136119BBD470006E8E9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB06135119BBD470006E8E9F /* Foundation.framework */; };
 		DB06136319BBD470006E8E9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB06136219BBD470006E8E9F /* UIKit.framework */; };
@@ -17,6 +17,28 @@
 		DB06136C19BBD470006E8E9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB06136A19BBD470006E8E9F /* InfoPlist.strings */; };
 		DB06136E19BBD470006E8E9F /* WLGmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB06136D19BBD470006E8E9F /* WLGmailTests.m */; };
 		DB06139619BBD91A006E8E9F /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB06139119BBD910006E8E9F /* libGTLTouchStaticLib.a */; };
+		DBA0037319BD0883001890D3 /* GTLGmail_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0035219BD0883001890D3 /* GTLGmail_Sources.m */; };
+		DBA0037419BD0883001890D3 /* GTLGmail_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0035219BD0883001890D3 /* GTLGmail_Sources.m */; };
+		DBA0037619BD0883001890D3 /* GTLGmailConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0035419BD0883001890D3 /* GTLGmailConstants.m */; };
+		DBA0037819BD0883001890D3 /* GTLGmailDraft.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0035619BD0883001890D3 /* GTLGmailDraft.m */; };
+		DBA0037A19BD0883001890D3 /* GTLGmailHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0035819BD0883001890D3 /* GTLGmailHistory.m */; };
+		DBA0037C19BD0883001890D3 /* GTLGmailLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0035A19BD0883001890D3 /* GTLGmailLabel.m */; };
+		DBA0037E19BD0883001890D3 /* GTLGmailListDraftsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0035C19BD0883001890D3 /* GTLGmailListDraftsResponse.m */; };
+		DBA0038019BD0883001890D3 /* GTLGmailListHistoryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0035E19BD0883001890D3 /* GTLGmailListHistoryResponse.m */; };
+		DBA0038219BD0883001890D3 /* GTLGmailListLabelsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0036019BD0883001890D3 /* GTLGmailListLabelsResponse.m */; };
+		DBA0038419BD0883001890D3 /* GTLGmailListMessagesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0036219BD0883001890D3 /* GTLGmailListMessagesResponse.m */; };
+		DBA0038619BD0883001890D3 /* GTLGmailListThreadsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0036419BD0883001890D3 /* GTLGmailListThreadsResponse.m */; };
+		DBA0038819BD0883001890D3 /* GTLGmailMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0036619BD0883001890D3 /* GTLGmailMessage.m */; };
+		DBA0038A19BD0883001890D3 /* GTLGmailMessagePart.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0036819BD0883001890D3 /* GTLGmailMessagePart.m */; };
+		DBA0038C19BD0883001890D3 /* GTLGmailMessagePartBody.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0036A19BD0883001890D3 /* GTLGmailMessagePartBody.m */; };
+		DBA0038E19BD0883001890D3 /* GTLGmailMessagePartHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0036C19BD0883001890D3 /* GTLGmailMessagePartHeader.m */; };
+		DBA0039019BD0883001890D3 /* GTLGmailThread.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0036E19BD0883001890D3 /* GTLGmailThread.m */; };
+		DBA0039219BD0883001890D3 /* GTLQueryGmail.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0037019BD0883001890D3 /* GTLQueryGmail.m */; };
+		DBA0039419BD0883001890D3 /* GTLServiceGmail.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0037219BD0883001890D3 /* GTLServiceGmail.m */; };
+		DBA0039819BD093E001890D3 /* WLGmailMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0039719BD093E001890D3 /* WLGmailMessage.m */; };
+		DBA0039919BD093E001890D3 /* WLGmailMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0039719BD093E001890D3 /* WLGmailMessage.m */; };
+		DBA0039C19BD0993001890D3 /* WLGmailAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0039B19BD0993001890D3 /* WLGmailAddress.m */; };
+		DBA0039D19BD0993001890D3 /* WLGmailAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0039B19BD0993001890D3 /* WLGmailAddress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +77,13 @@
 			remoteGlobalIDString = 4F1AD9020B71603F00DC0485;
 			remoteInfo = DevelopmentTestTool;
 		};
+		DBF79EA619BCD9F500A3AB73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB06138719BBD910006E8E9F /* GTL.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1C6E0E1027B3CE00B46459;
+			remoteInfo = GTLTouchStaticLib;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,7 +93,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				DB06135719BBD470006E8E9F /* WLGmail.h in CopyFiles */,
+				DB06135719BBD470006E8E9F /* WLGmailService.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +103,8 @@
 		DB06134E19BBD470006E8E9F /* libWLGmail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWLGmail.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB06135119BBD470006E8E9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DB06135519BBD470006E8E9F /* WLGmail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WLGmail-Prefix.pch"; sourceTree = "<group>"; };
-		DB06135619BBD470006E8E9F /* WLGmail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLGmail.h; sourceTree = "<group>"; };
-		DB06135819BBD470006E8E9F /* WLGmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLGmail.m; sourceTree = "<group>"; };
+		DB06135619BBD470006E8E9F /* WLGmailService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLGmailService.h; sourceTree = "<group>"; };
+		DB06135819BBD470006E8E9F /* WLGmailService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLGmailService.m; sourceTree = "<group>"; };
 		DB06135E19BBD470006E8E9F /* WLGmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLGmailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB06135F19BBD470006E8E9F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DB06136219BBD470006E8E9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -83,6 +112,44 @@
 		DB06136B19BBD470006E8E9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB06136D19BBD470006E8E9F /* WLGmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLGmailTests.m; sourceTree = "<group>"; };
 		DB06138719BBD910006E8E9F /* GTL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GTL.xcodeproj; path = GTL/GTL.xcodeproj; sourceTree = "<group>"; };
+		DBA0035119BD0883001890D3 /* GTLGmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmail.h; sourceTree = "<group>"; };
+		DBA0035219BD0883001890D3 /* GTLGmail_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmail_Sources.m; sourceTree = "<group>"; };
+		DBA0035319BD0883001890D3 /* GTLGmailConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailConstants.h; sourceTree = "<group>"; };
+		DBA0035419BD0883001890D3 /* GTLGmailConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailConstants.m; sourceTree = "<group>"; };
+		DBA0035519BD0883001890D3 /* GTLGmailDraft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailDraft.h; sourceTree = "<group>"; };
+		DBA0035619BD0883001890D3 /* GTLGmailDraft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailDraft.m; sourceTree = "<group>"; };
+		DBA0035719BD0883001890D3 /* GTLGmailHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailHistory.h; sourceTree = "<group>"; };
+		DBA0035819BD0883001890D3 /* GTLGmailHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailHistory.m; sourceTree = "<group>"; };
+		DBA0035919BD0883001890D3 /* GTLGmailLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailLabel.h; sourceTree = "<group>"; };
+		DBA0035A19BD0883001890D3 /* GTLGmailLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailLabel.m; sourceTree = "<group>"; };
+		DBA0035B19BD0883001890D3 /* GTLGmailListDraftsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailListDraftsResponse.h; sourceTree = "<group>"; };
+		DBA0035C19BD0883001890D3 /* GTLGmailListDraftsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailListDraftsResponse.m; sourceTree = "<group>"; };
+		DBA0035D19BD0883001890D3 /* GTLGmailListHistoryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailListHistoryResponse.h; sourceTree = "<group>"; };
+		DBA0035E19BD0883001890D3 /* GTLGmailListHistoryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailListHistoryResponse.m; sourceTree = "<group>"; };
+		DBA0035F19BD0883001890D3 /* GTLGmailListLabelsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailListLabelsResponse.h; sourceTree = "<group>"; };
+		DBA0036019BD0883001890D3 /* GTLGmailListLabelsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailListLabelsResponse.m; sourceTree = "<group>"; };
+		DBA0036119BD0883001890D3 /* GTLGmailListMessagesResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailListMessagesResponse.h; sourceTree = "<group>"; };
+		DBA0036219BD0883001890D3 /* GTLGmailListMessagesResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailListMessagesResponse.m; sourceTree = "<group>"; };
+		DBA0036319BD0883001890D3 /* GTLGmailListThreadsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailListThreadsResponse.h; sourceTree = "<group>"; };
+		DBA0036419BD0883001890D3 /* GTLGmailListThreadsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailListThreadsResponse.m; sourceTree = "<group>"; };
+		DBA0036519BD0883001890D3 /* GTLGmailMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailMessage.h; sourceTree = "<group>"; };
+		DBA0036619BD0883001890D3 /* GTLGmailMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailMessage.m; sourceTree = "<group>"; };
+		DBA0036719BD0883001890D3 /* GTLGmailMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailMessagePart.h; sourceTree = "<group>"; };
+		DBA0036819BD0883001890D3 /* GTLGmailMessagePart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailMessagePart.m; sourceTree = "<group>"; };
+		DBA0036919BD0883001890D3 /* GTLGmailMessagePartBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailMessagePartBody.h; sourceTree = "<group>"; };
+		DBA0036A19BD0883001890D3 /* GTLGmailMessagePartBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailMessagePartBody.m; sourceTree = "<group>"; };
+		DBA0036B19BD0883001890D3 /* GTLGmailMessagePartHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailMessagePartHeader.h; sourceTree = "<group>"; };
+		DBA0036C19BD0883001890D3 /* GTLGmailMessagePartHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailMessagePartHeader.m; sourceTree = "<group>"; };
+		DBA0036D19BD0883001890D3 /* GTLGmailThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLGmailThread.h; sourceTree = "<group>"; };
+		DBA0036E19BD0883001890D3 /* GTLGmailThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLGmailThread.m; sourceTree = "<group>"; };
+		DBA0036F19BD0883001890D3 /* GTLQueryGmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQueryGmail.h; sourceTree = "<group>"; };
+		DBA0037019BD0883001890D3 /* GTLQueryGmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQueryGmail.m; sourceTree = "<group>"; };
+		DBA0037119BD0883001890D3 /* GTLServiceGmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceGmail.h; sourceTree = "<group>"; };
+		DBA0037219BD0883001890D3 /* GTLServiceGmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceGmail.m; sourceTree = "<group>"; };
+		DBA0039619BD093E001890D3 /* WLGmailMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLGmailMessage.h; path = DataObject/WLGmailMessage.h; sourceTree = "<group>"; };
+		DBA0039719BD093E001890D3 /* WLGmailMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLGmailMessage.m; path = DataObject/WLGmailMessage.m; sourceTree = "<group>"; };
+		DBA0039A19BD0993001890D3 /* WLGmailAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLGmailAddress.h; path = DataObject/WLGmailAddress.h; sourceTree = "<group>"; };
+		DBA0039B19BD0993001890D3 /* WLGmailAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLGmailAddress.m; path = DataObject/WLGmailAddress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +179,7 @@
 		DB06134519BBD470006E8E9F = {
 			isa = PBXGroup;
 			children = (
+				DBA0034F19BD0883001890D3 /* Gmail */,
 				DB06135319BBD470006E8E9F /* WLGmail */,
 				DB06136719BBD470006E8E9F /* WLGmailTests */,
 				DB06135019BBD470006E8E9F /* Frameworks */,
@@ -142,8 +210,9 @@
 		DB06135319BBD470006E8E9F /* WLGmail */ = {
 			isa = PBXGroup;
 			children = (
-				DB06135619BBD470006E8E9F /* WLGmail.h */,
-				DB06135819BBD470006E8E9F /* WLGmail.m */,
+				DBA0039519BD090B001890D3 /* DataObject */,
+				DB06135619BBD470006E8E9F /* WLGmailService.h */,
+				DB06135819BBD470006E8E9F /* WLGmailService.m */,
 				DB06135419BBD470006E8E9F /* Supporting Files */,
 			);
 			path = WLGmail;
@@ -186,6 +255,67 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		DBA0034F19BD0883001890D3 /* Gmail */ = {
+			isa = PBXGroup;
+			children = (
+				DBA0035019BD0883001890D3 /* Generated */,
+			);
+			name = Gmail;
+			path = GTL/Services/Gmail;
+			sourceTree = "<group>";
+		};
+		DBA0035019BD0883001890D3 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				DBA0035119BD0883001890D3 /* GTLGmail.h */,
+				DBA0035219BD0883001890D3 /* GTLGmail_Sources.m */,
+				DBA0035319BD0883001890D3 /* GTLGmailConstants.h */,
+				DBA0035419BD0883001890D3 /* GTLGmailConstants.m */,
+				DBA0035519BD0883001890D3 /* GTLGmailDraft.h */,
+				DBA0035619BD0883001890D3 /* GTLGmailDraft.m */,
+				DBA0035719BD0883001890D3 /* GTLGmailHistory.h */,
+				DBA0035819BD0883001890D3 /* GTLGmailHistory.m */,
+				DBA0035919BD0883001890D3 /* GTLGmailLabel.h */,
+				DBA0035A19BD0883001890D3 /* GTLGmailLabel.m */,
+				DBA0035B19BD0883001890D3 /* GTLGmailListDraftsResponse.h */,
+				DBA0035C19BD0883001890D3 /* GTLGmailListDraftsResponse.m */,
+				DBA0035D19BD0883001890D3 /* GTLGmailListHistoryResponse.h */,
+				DBA0035E19BD0883001890D3 /* GTLGmailListHistoryResponse.m */,
+				DBA0035F19BD0883001890D3 /* GTLGmailListLabelsResponse.h */,
+				DBA0036019BD0883001890D3 /* GTLGmailListLabelsResponse.m */,
+				DBA0036119BD0883001890D3 /* GTLGmailListMessagesResponse.h */,
+				DBA0036219BD0883001890D3 /* GTLGmailListMessagesResponse.m */,
+				DBA0036319BD0883001890D3 /* GTLGmailListThreadsResponse.h */,
+				DBA0036419BD0883001890D3 /* GTLGmailListThreadsResponse.m */,
+				DBA0036519BD0883001890D3 /* GTLGmailMessage.h */,
+				DBA0036619BD0883001890D3 /* GTLGmailMessage.m */,
+				DBA0036719BD0883001890D3 /* GTLGmailMessagePart.h */,
+				DBA0036819BD0883001890D3 /* GTLGmailMessagePart.m */,
+				DBA0036919BD0883001890D3 /* GTLGmailMessagePartBody.h */,
+				DBA0036A19BD0883001890D3 /* GTLGmailMessagePartBody.m */,
+				DBA0036B19BD0883001890D3 /* GTLGmailMessagePartHeader.h */,
+				DBA0036C19BD0883001890D3 /* GTLGmailMessagePartHeader.m */,
+				DBA0036D19BD0883001890D3 /* GTLGmailThread.h */,
+				DBA0036E19BD0883001890D3 /* GTLGmailThread.m */,
+				DBA0036F19BD0883001890D3 /* GTLQueryGmail.h */,
+				DBA0037019BD0883001890D3 /* GTLQueryGmail.m */,
+				DBA0037119BD0883001890D3 /* GTLServiceGmail.h */,
+				DBA0037219BD0883001890D3 /* GTLServiceGmail.m */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		DBA0039519BD090B001890D3 /* DataObject */ = {
+			isa = PBXGroup;
+			children = (
+				DBA0039619BD093E001890D3 /* WLGmailMessage.h */,
+				DBA0039719BD093E001890D3 /* WLGmailMessage.m */,
+				DBA0039A19BD0993001890D3 /* WLGmailAddress.h */,
+				DBA0039B19BD0993001890D3 /* WLGmailAddress.m */,
+			);
+			name = DataObject;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,6 +330,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DBF79EA719BCD9F500A3AB73 /* PBXTargetDependency */,
 			);
 			name = WLGmail;
 			productName = WLGmail;
@@ -304,7 +435,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB06135919BBD470006E8E9F /* WLGmail.m in Sources */,
+				DBA0039819BD093E001890D3 /* WLGmailMessage.m in Sources */,
+				DB06135919BBD470006E8E9F /* WLGmailService.m in Sources */,
+				DBA0039C19BD0993001890D3 /* WLGmailAddress.m in Sources */,
+				DBA0037319BD0883001890D3 /* GTLGmail_Sources.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +446,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA0039419BD0883001890D3 /* GTLServiceGmail.m in Sources */,
+				DBA0039219BD0883001890D3 /* GTLQueryGmail.m in Sources */,
+				DBA0037819BD0883001890D3 /* GTLGmailDraft.m in Sources */,
+				DBA0039919BD093E001890D3 /* WLGmailMessage.m in Sources */,
+				DBA0037619BD0883001890D3 /* GTLGmailConstants.m in Sources */,
+				DBA0037A19BD0883001890D3 /* GTLGmailHistory.m in Sources */,
+				DBA0038C19BD0883001890D3 /* GTLGmailMessagePartBody.m in Sources */,
+				DBA0039019BD0883001890D3 /* GTLGmailThread.m in Sources */,
+				DBA0037C19BD0883001890D3 /* GTLGmailLabel.m in Sources */,
 				DB06136E19BBD470006E8E9F /* WLGmailTests.m in Sources */,
+				DBA0039D19BD0993001890D3 /* WLGmailAddress.m in Sources */,
+				DBA0038419BD0883001890D3 /* GTLGmailListMessagesResponse.m in Sources */,
+				DBA0037419BD0883001890D3 /* GTLGmail_Sources.m in Sources */,
+				DBA0038019BD0883001890D3 /* GTLGmailListHistoryResponse.m in Sources */,
+				DBA0038A19BD0883001890D3 /* GTLGmailMessagePart.m in Sources */,
+				DBA0037E19BD0883001890D3 /* GTLGmailListDraftsResponse.m in Sources */,
+				DBA0038219BD0883001890D3 /* GTLGmailListLabelsResponse.m in Sources */,
+				DBA0038819BD0883001890D3 /* GTLGmailMessage.m in Sources */,
+				DBA0038619BD0883001890D3 /* GTLGmailListThreadsResponse.m in Sources */,
+				DBA0038E19BD0883001890D3 /* GTLGmailMessagePartHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +476,11 @@
 			isa = PBXTargetDependency;
 			target = DB06134D19BBD470006E8E9F /* WLGmail */;
 			targetProxy = DB06136419BBD470006E8E9F /* PBXContainerItemProxy */;
+		};
+		DBF79EA719BCD9F500A3AB73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTLTouchStaticLib;
+			targetProxy = DBF79EA619BCD9F500A3AB73 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,13 +570,18 @@
 				DSTROOT = /tmp/WLGmail.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLGmail/WLGmail-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$BUILT_PRODUCTS_DIR/include/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				OTHER_LDFLAGS = (
-					"-ObjC",
 					"-all_load",
+					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -428,13 +591,18 @@
 				DSTROOT = /tmp/WLGmail.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLGmail/WLGmail-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$BUILT_PRODUCTS_DIR/include/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				OTHER_LDFLAGS = (
-					"-ObjC",
 					"-all_load",
+					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};

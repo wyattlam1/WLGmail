@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface WLGmail : NSObject
+@class WLGmailMessage;
+
+@interface WLGmailService : NSObject
+
+- (void)sendEmail:(WLGmailMessage *)message completionBlock:(void (^)(NSError *))completionBlock;
 
 @end
