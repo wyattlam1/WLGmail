@@ -39,6 +39,8 @@
 		DBA0039919BD093E001890D3 /* WLGmailMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0039719BD093E001890D3 /* WLGmailMessage.m */; };
 		DBA0039C19BD0993001890D3 /* WLGmailAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0039B19BD0993001890D3 /* WLGmailAddress.m */; };
 		DBA0039D19BD0993001890D3 /* WLGmailAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0039B19BD0993001890D3 /* WLGmailAddress.m */; };
+		DBC38C6D19C24FA700FD2B80 /* WLGmailMessage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBA0039619BD093E001890D3 /* WLGmailMessage.h */; };
+		DBC38C7119C24FAE00FD2B80 /* WLGmailAddress.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBA0039A19BD0993001890D3 /* WLGmailAddress.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,8 @@
 			dstSubfolderSpec = 16;
 			files = (
 				DB06135719BBD470006E8E9F /* WLGmailService.h in CopyFiles */,
+				DBC38C6D19C24FA700FD2B80 /* WLGmailMessage.h in CopyFiles */,
+				DBC38C7119C24FAE00FD2B80 /* WLGmailAddress.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
