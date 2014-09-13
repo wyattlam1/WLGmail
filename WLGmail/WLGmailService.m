@@ -9,7 +9,6 @@
 #import "WLGmailService.h"
 #import "WLGmailMessage.h"
 #import "GTMOAuth2Authentication.h"
-#import "GTMOAuth2ViewControllerTouch.h"
 #import "GTLGmail.h"
 
 @interface WLGmailService()
@@ -18,20 +17,17 @@
 
 @implementation WLGmailService
 
-static NSString *const CLIENT_ID = @"186276393028-h84qv12meolpht4sa003csrlt74sldhj.apps.googleusercontent.com";
-static NSString *const CLIENT_SECRET = @"KqRG4g83Xtq_-twoLoBFz171";
-static NSString *const kKeychainItemName = @"zaizaiwyatt";
-
-- (instancetype)init
+- (instancetype)initWithEmailAddress:(NSString *)emailAddress authorizer:(GTMOAuth2Authentication *)auth
 {
     self = [super init];
     if (self) {
-        GTMOAuth2Authentication *auth = [GTMOAuth2ViewControllerTouch authForGoogleFromKeychainForName:kKeychainItemName clientID:CLIENT_ID clientSecret:CLIENT_SECRET];
         _service = [GTLServiceGmail new];
         _service.authorizer = auth;
     }
     return self;
 }
+
+#pragma mark - Public Methods
 
 - (void)sendEmail:(WLGmailMessage *)message completionBlock:(void (^)(NSError *))completionBlock
 {

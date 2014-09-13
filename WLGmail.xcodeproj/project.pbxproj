@@ -215,9 +215,9 @@
 			isa = PBXGroup;
 			children = (
 				DBA0039519BD090B001890D3 /* DataObject */,
+				DB06135419BBD470006E8E9F /* Supporting Files */,
 				DB06135619BBD470006E8E9F /* WLGmailService.h */,
 				DB06135819BBD470006E8E9F /* WLGmailService.m */,
-				DB06135419BBD470006E8E9F /* Supporting Files */,
 			);
 			path = WLGmail;
 			sourceTree = "<group>";
