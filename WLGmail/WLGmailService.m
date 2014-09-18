@@ -12,6 +12,7 @@
 #import "GTLGmail.h"
 
 @interface WLGmailService()
+@property (nonatomic, copy, readwrite) NSString *emailAddress;
 @property (nonatomic, readonly) GTLServiceGmail *service;
 @end
 
@@ -21,6 +22,8 @@
 {
     self = [super init];
     if (self) {
+        _emailAddress = emailAddress;
+        
         _service = [GTLServiceGmail new];
         _service.authorizer = auth;
     }

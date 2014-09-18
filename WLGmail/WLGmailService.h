@@ -12,6 +12,7 @@
 @class GTMOAuth2Authentication;
 
 @interface WLGmailService : NSObject
+@property (nonatomic, copy, readonly) NSString *emailAddress;
 
 - (instancetype)initWithEmailAddress:(NSString *)emailAddress authorizer:(GTMOAuth2Authentication *)auth;
 
